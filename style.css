@@ -4,6 +4,7 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f5f0f0;
   color: #3b2f2f;
+  font-size: 18px; /* увеличен основен текст */
 }
 
 /* HEADER */
@@ -20,7 +21,7 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 30px;
+  font-size: 34px; /* леко увеличен */
   font-weight: 700;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
@@ -63,10 +64,11 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 14px 20px;
+  padding: 16px 24px;
   color: #f5f0f0;
   text-decoration: none;
   font-weight: 500;
+  font-size: 18px; /* увеличен текст в менюто */
   transition: background-color 0.3s;
 }
 
@@ -84,6 +86,7 @@ main {
 
 main h2 {
   color: #5c0000;
+  font-size: 28px;
 }
 
 /* CTA бутон */
@@ -95,11 +98,11 @@ main h2 {
 .cta a {
   background-color: #5c0000;
   color: #fffaf0;
-  padding: 15px 35px;
+  padding: 18px 40px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 20px; /* увеличен текст в бутона */
   transition: 0.3s;
 }
 
@@ -132,12 +135,12 @@ main h2 {
 .card h3 {
   margin-top: 0;
   color: #5c0000;
+  font-size: 22px;
 }
 
-  ul li {
-    margin-bottom: 30px;
-  }
-
+ul li {
+  margin-bottom: 30px;
+}
 
 /* FOOTER */
 footer {
@@ -146,5 +149,5 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  font-size: 14px;
+  font-size: 16px; /* увеличен footer текст */
 }
